@@ -1,3 +1,11 @@
+# changedlog
+'''yarn add --dev gh-pages'''
+script:
+"predeploy": "yarn run build",
+"deploy": "gh-pages -d build"
+ https://mat-it.github.io/first-react/.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
