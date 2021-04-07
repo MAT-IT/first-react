@@ -1,6 +1,8 @@
 
 
 import './App.css';
+import BindMetod from './COMPONENTS/BindMetod';
+
 import Formm from './COMPONENTS/Form';
 import FunctionEventHandling from './COMPONENTS/FunctionEventHandling';
 import IdPropsDrilling from './COMPONENTS/IdPropsDrilling';
@@ -13,7 +15,8 @@ import Tema from './COMPONENTS/TemaSetState';
 function App() {
   return (
     <div className="App">
-      <FunctionEventHandling/>
+       <BindMetod/>
+      {/* <FunctionEventHandling/> */}
       {/* <Sayac/> */}
       {/* <Tema/>
       <State />
