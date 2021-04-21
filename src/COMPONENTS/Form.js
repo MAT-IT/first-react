@@ -5,7 +5,7 @@ function Formm (){
         <div>
             <form>
                 <input placeholder="enter name"/>
-                <buton>send</buton>
+                <button>send</button>
             </form>
         </div>
 
